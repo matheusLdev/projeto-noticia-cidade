@@ -69,3 +69,149 @@ body.photos #menu a#photos
   background: #de003e;
   cursor: text;
 }
+
+main {
+   margin-top: 60px;
+   background: #f5f5f5;
+}
+
+#primary {
+  width: 270px;
+  float: left;
+  margin: 0 15px 20px 195px;
+}
+#two-columns #primary {
+  width: 555px;  
+}
+
+#one-column #primary {
+  width: 750px;  
+}
+
+img {
+  border: 2px solid #dfdfdf
+}
+
+img.main-image {
+  width: 98%;
+  border: 3px solid #dfdfdf;
+}
+
+h3 {
+  text-transform: uppercase;
+  display: inline;
+  font-size: 0.8em;
+  padding: 5px;
+}
+
+.highlight h3 {
+  background: #b10333;
+  color: #fff;
+}
+
+#news-list li{
+  padding: 2px;
+  border-bottom: 1px solid #ccc;
+  height: 65px;
+}
+
+#news-list li:hover{
+  background: #eee;
+  cursor: pointer;
+}
+
+#news-list li a {
+  text-decoration: none;
+  font-size: 0.6em;
+  color: #000;
+}
+
+#news-list li a img {
+  width: 80px;
+  float: left;
+  margin: 5px;
+}
+
+#news-list li a h3 {
+  font-size: 0.9em;
+  color: #3e7ab9;
+  padding: 0;
+}
+
+#secondary {
+  width: 270px;
+  float: left;
+}
+aside {
+  width: 180px;
+  float: left;
+  margin: 0 0 20px -750px;
+}
+
+.boxes {
+  margin: 10px 0;
+  padding: 5px;
+  background: #f3f3f3 url(../img/fundo-caixa.png);
+}
+
+h2 {
+  font-size: 1em;
+  background: #294c71;
+  color: #fff;
+  padding: 5px;
+}
+
+.boxes-content {
+  background: #fff;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+aside .boxes-content a {
+  font-size: 0.9em;
+  padding: 3px;
+  display: block;
+  line-height: 30px;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+aside .boxes-content a:hover {
+  background: #f9f9f9 url(../img/marcador.png) no-repeat left center;
+  padding-left: 20px;
+  color: #a1a1a1;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+
+input {
+  padding: 5px;
+  width: 125px;
+  font-size: 0.9em;
+  background-color: #fff;
+}
+
+input.submit {
+  width: 80px;
+  color: #fff;
+  background-color: #b10333;
+  margin-top: 5px;
+  border: 2px solid #870529;
+  cursor: pointer;
+}
+
+footer {
+  clear: both;
+  background: #294c71;
+  padding: 20px;
+}
+
+#container-footer {
+  width: 750px;
+  margin: 0 auto;
+  color: #fff;
+}
