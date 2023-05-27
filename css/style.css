@@ -225,3 +225,25 @@ footer {
   margin: 0 auto;
   color: #fff;
 }
+
+@media(max-width: 600px){
+  #menu li a {
+    font-size: 0.5em;
+    padding: 2em 0.6em;
+    line-height: 2em;
+  }
+  
+  #one-column #primary, #two-columns #primary,
+  #primary, #secondary, aside {
+    width: 390px;
+    margin: 0 auto;
+    float: none;
+  }
+
+  #container, #container-footer{
+    width: 390px;
+  }
+  #container-footer{
+    display: inline;
+  }
+}
